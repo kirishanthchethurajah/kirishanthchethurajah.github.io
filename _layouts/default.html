@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Recommended XHTML-Editor: HTML-Kit 292 (Freeware) -->
+<!-- http://www.chami.com/html-kit/download/ -->
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta name="description" content="The Robot Construction Kit - a robot software development environment" />
+  <meta name="keywords" content="robotics,toolchain,components,field robotics,underwater robotics" />
+  <meta name="author" content="The Rock core team" />
+
+
+
+   <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+   <link rel="stylesheet" href="/css/style_screen.css" type="text/css" />
+   <script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/tumblelog.js?b32c40067ef5fa460dd9a1eda92ee368"></script>
+
+{% if page.title == "Home Page" or page.title == "footer" %}
+
+<style type="text/css">
+.content2 {
+   margin-left: 110px;
+}
+</style>
+{% endif %}
+
+
+   <meta http-equiv="x-dns-prefetch-control" content="off"/>
+</head>
+
+<body>
+  <div class="page-container-2">
+      <div class="nav1-container">
+          <div class="nav1">
+          <a href="/documentation/installation.html">Installation</a>
+		  <a href="/documentation/index.html">Documentation</a>
+		  <a href="/package_directory.html">Browse Packages</a>
+		  <a href="http://blog.rock-robotics.org">News</a>
+		  <a href="/documentation/contributing/index.html">Community</a>
+		  <a href="/documentation/contributing/bugreports.html">Report a Bug</a>
+          </div>
+          <div class="search">
+              <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css"
+              type="text/css" />
+              <style type="text/css">
+                input.gsc-input {
+                  border-color: #BCCDF0;
+                }
+                input.gsc-search-button {
+                  border-color: #CECECE;
+                  background-color: #E9E9E9;
+                }
+              </style>
+          </div>
+      </div>
+
+      <div class="site-name" onclick="location.href='/index.html';" style="cursor: pointer; z-index: 10; width: 120px">
+          <p class="title">Rock</p>
+          <p class="subtitle">the Robot Construction Kit</p>
+      </div>
+
+      <div class="title_buffer"></div>
+
+      <div class="nav2">
+          <ul>
+
+		  {% if page.title %}
+
+		  {% if page.title == "Home Page" %}
+	      <li><span class="empty">&nbsp;</span></li>
+		  {% elsif page.title == "footer" %}
+		  <li><span>Rock: the Robot Construction Kit</span><span class="empty">&nbsp;</span></li>
+      {% elsif page.secondsection %}
+      {% if page.secondsection == "Introduction" or page.secondsection == "system" or page.secondsection == "Tutorials" %}
+      <li><a href="../index.html">/</a><a href="index.html">{{page.section}}</a><span>{{page.title}}</span><span class="empty">&nbsp;</span></li>
+      {%else %}
+      <li><a href="../../index.html">/</a><a href="../index.html"> {{page.section}}</a><a href="index.html">{{page.title}}</a><span>{{page.secondsection}}</span><span class="empty">&nbsp;</span></li>
+      {% endif %}
+      {% elsif page.section %}
+      {% if page.section == page.title %}
+      <li><a href="../index.html">/</a><span> {{page.title}}</span><span class="empty">&nbsp;</span></li>
+      {% elsif page.title == "Introduction"%}
+      <li><a href="../index.html">/</a><span> {{page.section}}</span><span class="empty">&nbsp;</span></li>
+      {%else %}
+		  <li><a href="../index.html">/</a><a href="index.html">{{page.section}}</a><span>{{page.title}}</span><span class="empty">&nbsp;</span></li>
+		  {% endif %}
+      {% endif %}
+		  {%else %}
+		  <li><span>/</span><span class="empty">&nbsp;</span></li>
+		  {% endif %}
+          </ul>
+      </div>
+
+      <div class="buffer">
+
+      </div>
+
+
+      <div class="content">
+      {{ content }}
+      </div>
+
+
+
+      <!-- FOOTER -->
+      <div class="footer">
+      		<div><p style="text-align:center;"><a href="/impressum.html">Imprint/Impressum Privacy Statement/Datenschutzerklärung</a></div></p>
+
+      </div>
+  </div>
+</body>
+</html>
+
+<!--
+vim:tw=0:ft=eruby
+-->

@@ -1,0 +1,372 @@
+---
+layout: default
+---
+<script>
+$("ul.webgen li").click(function(){
+
+    $("ul.webgen li").removeClass("active");
+    $(this).addClass("active");
+
+});
+</script>
+<section class="hero">
+    <div class="leftnav">
+        <div class="nav3">
+          <ul class= "webgen">
+
+                <li class="webgen-menu-level1"> <a href="/documentation/toc.html">Table of Contents</a></li>
+            </ul>
+            <div class="title">Intro</div>
+          <ul class= "webgen">
+                <li class="webgen-menu-level1"><a href="/documentation/index.html">Overview</a></li>
+
+                {% if page.section == "About Rock" %}
+                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/about/index.html">About Rock</a>
+                  <ul class= "webgen">
+                        <li class="webgen-menu-level2"><a href="/documentation/about/others.html">Relation to Others</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/about/index.html">What is Rock?</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/about/releases.html">Release Strategy</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/about/ack.html">Acknowledging Rock</a></li>
+                    </ul>
+                    {% else %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu "><a href="/documentation/about/index.html">About Rock</a> {% endif %}
+                    </li>
+                    <li class="webgen-menu-level1"><a href="/documentation/installation.html">Installation</a></li>
+                    {% if page.section == "Managing Packages" %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"> <a href="/documentation/packages/index.html">Managing Packages</a>
+                      <ul class= "webgen">
+                            <li class="webgen-menu-level2"><a href="/documentation/packages/package_structure.html">Package Structure</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/packages/cmake_macros.html">Rock CMake Macros</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/packages/outside_of_rock.html">Using Rock packages outside of Rock</a></li>
+                        </ul>
+                        {% else %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/packages/index.html">Managing Packages</a> {% endif %}
+                        </li>
+                        {% if page.section == "Contributing" %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/contributing/index.html">Contributing</a>
+                          <ul class= "webgen">
+                                <li class="webgen-menu-level2"><a href="/documentation/contributing/documentation.html">Documentation</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/contributing/bugreports.html">Reporting Bugs</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/contributing/packages.html">Packages</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/contributing/merge_changes_to_rock-core.html">Sending Your Changes</a></li>
+                            </ul>
+                            {% else %}
+                            <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/contributing/index.html">Contributing</a> {% endif %}
+                            </li>
+                            <li class="webgen-menu-level1"><a href="../pkg">Packages API</a></li>
+            </ul>
+            <div class="title">Tutorials</div>
+          <ul class= "webgen">
+                {% if page.section == "Basics" %}
+                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/tutorials/index.html">Basics</a>
+                  <ul class= "webgen">
+                        <li class="webgen-menu-level2 "><a href="/documentation/tutorials/index.html">Introduction</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/100_basics_create_library.html">Creating libraries</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/110_basics_create_component.html">Creating components</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/120_basics_configure_component.html">Configure components</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/130_basics_connect_components.html">Connecting components</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/190_installing_packages.html">Installing Packages</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/200_display_logging_and_replay.html">Viewing The Data (Live / Log Files)</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/500_simulate_a_robot.html">Simulate a Robot</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/510_joystick.html">Adding a Joystick into the Mix</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/tutorials/520_virtual_joystick.html">Control through a Virtual Joystick</a></li>
+                    </ul>
+                    {% else %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/tutorials/index.html">Basics</a> {% endif %}
+                    </li>
+                    {% if page.section == "Advanced" %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/advanced_tutorials/index.html">Advanced</a>
+                      <ul class= "webgen">
+                            <li class="webgen-menu-level2 webgen-menu-item-selected"><a href="/documentation/advanced_tutorials/index.html">Introduction</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/100_deployments.html">Deployments</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/200_replay_1.html">Replaying data in scripts</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/210_data_visualization.html">Data Visualization</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/220_3d_data_visualization.html">3D Data Visualization</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/300_vizkit_widget.html">Writing a Vizkit C++ Widget</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/600_vizkit_plugin.html">Writing a 3D Vizkit plugin</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/620_multi_widget_display.html">Multi Widget Display</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/advanced_tutorials/700_nameservice.html">Using Avahi to find the tasks</a></li>
+                        </ul>
+                    </li>
+                    {% else %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/advanced_tutorials/index.html">Advanced</a> {% endif %}
+                    </li>
+                    {% if page.section == "System Management" and page.secondsection == "Tutorials" %}
+
+                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/system_management_tutorials/index.html">System Management</a>
+                      <ul class= "webgen">
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/index.html">Introduction</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/100_moving_to_bundles.html">Moving to bundles</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/200_first_composition.html">First composition</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/300_services.html">Going abstract - Data Services</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/400_runtime_workflow.html">Runtime Workflow</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/500_config_files.html">Configuration files</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/600_more_complex.html">Refining models - a leader/follower system</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/700_file_structure.html">Bundle File Structure</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/800_devices.html">Devices</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/900_reusing_profiles.html">Reusing Profiles</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/1000_transformer.html">Transformer</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/1100_action_state_machines.html">Action State Machines</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/1200_data_monitors.html">Data Monitors</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/system_management_tutorials/1300_fault_response_tables.html">Fault Response Tables</a></li>
+                        </ul>
+
+                        {% else %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/system_management_tutorials/index.html">System Management</a> {% endif %}
+                        </li>
+                        {% if page.section == "Setting up a New Project" %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/setting_up_a_project/index.html">Setting up a New Project</a>
+                          <ul class= "webgen">
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/index.html">Introduction</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/100_setting_up_the_build_system.html">Setting up the build system</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/200_adding_to_git.html">Add build system to git</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/300_bundles.html">Bundles in Rock</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/400_configuration_files_for_tasks.html">Configuration files for tasks</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/setting_up_a_project/500_configure_transformer.html">Configuring the transformer</a></li>
+                            </ul>
+
+                            {% else %}
+                            <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/setting_up_a_project/index.html">Setting up a New Project</a> {% endif %}
+                            </li>
+            </ul>
+            <div class="title">Core</div>
+          <ul class= "webgen">
+                <li class="webgen-menu-level1"><a href="/documentation/base_types.html">Base Types</a></li>
+                {% if page.section == "Build System" %}
+                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/autoproj/index.html">Build System</a>
+                  <ul class= "webgen">
+                        <li class="webgen-menu-level2"><span>Introduction</span></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/bootstrap.html">Bootstrapping</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/basic_usage.html">Basic usage</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/customization.html">Customizing the installation</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/adding_packages.html">Adding packages</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/writing_manifest.html">The manifest file.</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/error_messages.html">Understanding autoproj error messages</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/autoproj/osdeps.html">The osdeps system</a></li>
+                        {% if page.secondsection %}
+                        <li class="webgen-menu-level2 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/autoproj/advanced/index.html">Advanced</a>
+                          <ul class= "webgen">
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/index.html">Advanced Topics</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/query.html">Tooling with shell scripts</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/manifest-xml.html">The manifest.xml file</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/creating_pkg_set.html">Creating a package set</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/autobuild.html">Writing autobuild scripts</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/writing_package_handlers.html">Writing Package Handlers</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/importers.html">Package import</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/package_dependencies.html">Package Dependencies</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/cross_set_dependencies.html">Cross-Set Dependencies</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/osdeps.html">Operating System dependencies</a></li>
+                                <li class="webgen-menu-level3"><a href="/documentation/autoproj/advanced/autoproj_osdeps.html">Supporting new OSes in autoproj</a></li>
+                            </ul>
+                            {% else %}
+                            <li class="webgen-menu-level2 webgen-menu-submenu"><a href="/documentation/autoproj/advanced/index.html">Advanced</a> {% endif %}
+                            </li>
+                            <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../../api/autoproj/index.html">Autoproj API</a></li>
+                            <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../../api/autobuild/index.html">Autobuild API</a></li>
+                    </ul>
+                    {% else %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/autoproj/index.html">Build System</a> {% endif %}</li>
+                    {% if page.section == "Developing Components" %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                        <a href="/documentation/orogen/index.html">Developing Components</a>
+                      <ul class= "webgen">
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/index.html">The Workflow</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/orogen_cheat_sheet.pdf">Cheat Sheet (PDF)</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/type_definitions.html">Type definitions</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/task_interface.html">Task Interface</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/task_states.html">Task States</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/task_inheritance.html">Task Inheritance</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/orogen/deployment.html">Deployments</a></li>
+                            {% if page.title == "Triggering" %}
+                            <li class="webgen-menu-level2 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                                <a href="/documentation/orogen/triggering/index.html">Triggering</a>
+                              <ul class= "webgen">
+                                    <li class="webgen-menu-level3"><a href="/documentation/orogen/triggering/index.html">Triggering Mechanisms</a></li>
+                                    <li class="webgen-menu-level3"><a href="/documentation/orogen/triggering/ports.html">Data-Driven Tasks</a></li>
+                                    <li class="webgen-menu-level3"><a href="/documentation/orogen/triggering/periodic.html">Periodic Triggering</a></li>
+                                    <li class="webgen-menu-level3"><a href="/documentation/orogen/triggering/fd.html">FD-driven tasks</a></li>
+                                </ul>
+                                {% else %}
+                                <li class="webgen-menu-level2"><a href="/documentation/orogen/triggering/index.html">Triggering</a> {% endif %}
+                                </li>
+                                <li class="webgen-menu-level2"><a href="/documentation/orogen/cross_project.html">Cross-project dependencies</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/orogen/plugins.html">Advanced - Writing oroGen plugins</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/orogen/orogen_additions_to_rtt.html">Advanced - oroGen additions to the standard RTT component interface</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/orogen/opaque_types.html">Advanced - Opaque types</a></li>
+                                <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../../api/orogen/index.html">API</a></li>
+                                {% if page.title == "Transports" %}
+                                <li class="webgen-menu-level2 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/orogen/transports/index.html">Transports</a>
+                                  <ul class= "webgen">
+                                        <li class="webgen-menu-level3"><a href="/documentation/orogen/transports/index.html">Transports</a></li>
+                                        <li class="webgen-menu-level3"><a href="/documentation/orogen/transports/ros.html">ROS</a></li>
+                                    </ul>
+                                    {% else %}
+                                    <li class="webgen-menu-level2 webgen-menu-submenu"><a href="/documentation/orogen/transports/index.html">Transports</a> {% endif %}
+                                    </li>
+
+                        </ul>
+                        {% else %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/orogen/index.html">Developing Components</a> {% endif %}
+                        </li>
+                        {% if page.section == "Running Components" %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/runtime/index.html">Running Components</a>
+                          <ul class= "webgen">
+                                <li class="webgen-menu-level2 webgen-menu-item-selected"><a href="/documentation/runtime/index.html">Introduction</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/quickstart.html">Quickstart</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/oroinspect.html">oroinspect - finding out what is there</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/ruby_and_types.html">oroGen types and Ruby scripts</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/setup.html">Starting the system up</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/debugging.html">Debugging Components</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/tasks.html">Manipulating tasks</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/properties.html">Properties</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/ports.html">Data connections</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/configuration.html">Configuration Files</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/runtime/error_messages.html">Error messages</a></li>
+                                <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../../api/tools/orocos.rb/index.html">API</a></li>
+                            </ul>
+                            {% else %}
+                            <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/runtime/index.html">Running Components</a> {% endif %}
+                            </li>
+                            {% if page.section == "System Management" and page.secondsection == "system" %}
+
+                            <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/system/index.html">System Management</a>
+                              <ul class= "webgen">
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/index.html">Introduction</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/general_concept.html">General Concept</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/workflow.html">Workflow</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/robot.html">Robot Configurations</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/data_services.html">Data Services</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/task_contexts.html">Task Contexts</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/compositions.html">Compositions</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/subsystem_design.html">Subsystem Design</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/profiles.html">Profiles</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/devices.html">Devices</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/file_layout.html">Syskit-enabled Bundles</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/interaction.html">Running and interacting with a Roby/Syskit system</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/dataflow_dynamics.html">Dataflow Dynamics</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/dynamic_services.html">Dynamic Services</a></li>
+                                    <li class="webgen-menu-level2"><a href="/documentation/system/naming_conventions.html">Naming Conventions</a></li>
+                                    <li class="webgen-menu-level2"><a href="../../api/tools/syskit">Syskit</a></li>
+                                    <li class="webgen-menu-level2"><a href="../../api/tools/roby/index.html">Roby guide</a></li>
+                                </ul>
+
+                                {% else %}
+                                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/system/index.html">System Management</a> {% endif %}
+
+                                </li>
+                                {% if page.section == "Data Analysis" %}
+                                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/data_analysis/index.html">Data Analysis</a>
+                                  <ul class= "webgen">
+                                        <li class="webgen-menu-level2"><a href="/documentation/data_analysis/index.html">Overview</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/data_analysis/logging.html">Setting Up Data Logging</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/data_analysis/reading_logfiles.html">Reading Log Data</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/data_analysis/replaying_logfiles.html">Replay Log Data</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/data_analysis/converting_logfiles.html">Updating log files</a></li>
+                                    </ul>
+
+                                    {% else %}
+                                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/data_analysis/index.html">Data Analysis</a> {% endif %}
+                                    </li>
+                                    {% if page.section == "Graphical User Interface" %}
+                                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                                        <a href="/documentation/graphical_user_interface/index.html">Graphical User Interface</a>
+                                      <ul class= "webgen">
+                                            <li class="webgen-menu-level2 webgen-menu-item-selected"><a href="/documentation/graphical_user_interface/index.html">Overview</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/200_simple_gui.html">Developing a Simple GUI</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/300_displaying_logfiles.html">Displaying Log Files</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/350_plotting.html">Plotting Data</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/400_qt_designer.html">Qt Designer</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/450_vizkit3d.html">Vizkit 3D</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/500_available_widgets.html">Available Widgets</a></li>
+                                            <li class="webgen-menu-level2"><a href="/documentation/graphical_user_interface/600_writing_vizkit_widget.html">Writing Vizkit Widgets</a></li>
+                                        </ul>
+                                        {% else %}
+                                        <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/graphical_user_interface/index.html">Graphical User Interface</a> {% endif %}
+                                        </li>
+                                        {% if page.section == "Simulating a Robot" %}
+                                        <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/simulation/index.html">Simulating a Robot</a>
+                                          <ul class= "webgen">
+                                                <li class="webgen-menu-level2 "><a href="/documentation/simulation/index.html">Overview</a></li>
+                                                <li class="webgen-menu-level2"><a href="/documentation/simulation/100_design_background.html">Design Background</a></li>
+                                                <li class="webgen-menu-level2"><a href="/documentation/simulation/200_usage_of_the_simulation.html">Usage Simulation</a></li>
+                                            </ul>
+                                            {% else %}
+                                            <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/simulation/index.html">Simulating a Robot</a> {% endif %}
+                                            </li>
+
+            </ul>
+            <div class="title">Additional Core Functionality</div>
+          <ul class= "webgen">
+                {% if page.section == "Data Processing" %}
+                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                    <span>Data Processing</span>
+                  <ul class= "webgen">
+                        <li class="webgen-menu-level2 "><a href="/documentation/data_processing/index.html">Data Acquisition</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/data.html">Data is King</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/timestamping.html">The timestamp estimator</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/timestamp_estimator_usage.html">  ... API and oroGen usage</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/stream_aligner.html">Processing Data - the Stream Aligner</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/stream_aligner_orogen.html">  ... in oroGen</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/stream_aligner_runtime.html">  ... at Runtime</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/transformer.html">Handling Geometry - the Transformer</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/transformer_orogen.html">  ... in oroGen</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/transformer_runtime.html">  ... at runtime</a></li>
+                        <li class="webgen-menu-level2"><a href="/documentation/data_processing/transformer_roby.html">... in Syskit</a></li>
+                    </ul>
+                    {% else %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/data_processing/index.html">Data Processing</a> {% endif %}
+                    </li>
+                    {% if page.section == "Device Drivers" %}
+                    <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/device_drivers/index.html">Device Drivers</a>
+
+                      <ul class= "webgen">
+                            <li class="webgen-menu-level2"><a href="/documentation/device_drivers/index.html">Introduction</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/device_drivers/writing_driver.html">Writing a device driver</a></li>
+                            <li class="webgen-menu-level2"><a href="/documentation/device_drivers/writing_orogen_driver.html">oroGen Integration</a></li>
+                        </ul>
+                        {% else %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/device_drivers/index.html">Device Drivers</a> {% endif %}
+                        </li>
+                        {% if page.section == "Envire" %}
+                        <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="/documentation/envire/index.html">Envire</a>
+                          <ul class= "webgen">
+                                <li class="webgen-menu-level2"><a href="/documentation/envire/index.html">Overview</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/envire/core.html">Core Features</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/envire/frames.html">Frame Tree</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/envire/maps.html">Maps</a></li>
+                                <li class="webgen-menu-level2"><a href="/documentation/envire/operators.html">Operators</a></li>
+                            </ul>
+                            {% else %}
+                            <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/envire/index.html">Envire</a> {% endif %}
+                            </li>
+                            {% if page.section == "Debugging Techniques" %}
+                            <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                                <span>Debugging Techniques</span>
+                              <ul class= "webgen">
+                                    <li class="webgen-menu-level2 webgen-menu-item-selected"><span>Base Logging</span></li>
+                                </ul>
+                                {% else %}
+                                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/debugging/index.html">Debugging Techniques</a> {% endif %}
+                                </li>
+                                {% if page.section == "ROS/Rock bridge" %}
+                                <li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy">
+                                    <span>ROS/Rock bridge</span>
+                                  <ul class= "webgen">
+                                        <li class="webgen-menu-level2"><a href="/documentation/ros/index.html">The ROS-Rock Bridge</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/ros/installation.html">Installation</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/ros/data_types.html">Data Types</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/ros/runtime.html">Runtime Setup</a></li>
+                                        <li class="webgen-menu-level2"><a href="/documentation/ros/example.html">Example</a></li>
+                                    </ul>
+                                    {% else %}
+                                    <li class="webgen-menu-level1 webgen-menu-submenu"><a href="/documentation/ros/index.html">ROS/Rock bridge</a> {% endif %}
+                                    </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+{{ content }}
