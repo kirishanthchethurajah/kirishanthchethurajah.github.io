@@ -1,0 +1,1121 @@
+---
+layout: page
+hero_text: about Page!
+title: Table Of Contents
+---
+
+<div class="content2">
+
+    <div class="content2-pagetitle">Table of Contents</div>
+
+    <div class="content2-container line-box">
+        <div class="content2-container-1col">
+
+            <ul>
+                <li class="webgen-menu-level1 webgen-menu-item-selected"><span>Table of Contents</span></li>
+                <li class="webgen-menu-level1"><a href="index.html">Overview</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="index.html#development-workflow">Development Workflow</a></li>
+                        <li class="webgen-menu-level2"><a href="index.html#data-analysis">Data Analysis</a></li>
+                        <li class="webgen-menu-level2"><a href="index.html#advanced-system-management">Advanced System Management</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="about/index.html">About Rock</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="about/others.html">Relation to Others</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="about/others.html#whats-the-difference-with-the-orocos-toolchain">What&rsquo;s the difference with the Orocos Toolchain?</a></li>
+                                <li class="webgen-menu-level3"><a href="about/others.html#how-does-rock-relate-to-the-robot-operating-system-ros">How does Rock relate to the Robot Operating System (ROS)?</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="about/index.html">What is Rock?</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="about/index.html#overview">Overview</a></li>
+                                <li class="webgen-menu-level3"><a href="about/index.html#origin">Origin</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="about/releases.html">Release Strategy</a></li>
+                        <li class="webgen-menu-level2"><a href="about/ack.html">Acknowledging Rock</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1"><a href="installation.html">Installation</a>
+                    <ul>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="installation.html#level-of-support">Level of support</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="installation.html#well-tested-oss">Well tested OS&rsquo;s</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="installation.html#experimental-oss">Experimental OS&rsquo;s</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="installation.html#legal-comments">Legal Comments</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="installation.html#status-for-other">Status for other</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="installation.html#installation-the-easy-way">Installation: the easy way</a></li>
+                        <li class="webgen-menu-level2"><a href="installation.html#other-bootstrapping-options">Other bootstrapping options</a></li>
+                        <li class="webgen-menu-level2"><a href="installation.html#maintaining-a-rock-installation">Maintaining a Rock installation</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="packages/index.html">Managing Packages</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="packages/index.html">Managing Packages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="packages/index.html#plain-c-libraries">Plain C++ Libraries</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/index.html#ruby-libraries">Ruby libraries</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/index.html#vizkit-widgets">vizkit Widgets</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/index.html#vizkit-3d-plugins">vizkit 3D Plugins</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/index.html#orogen-projects">oroGen projects</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="packages/package_structure.html">Package Structure</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="packages/package_structure.html#categories">Categories</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/package_structure.html#naming">Naming</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/package_structure.html#libraries-and-orogen-components">Libraries and oroGen components</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/package_structure.html#mapping-between-local-installation-and-github-repositories">Mapping between local installation and github repositories</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="packages/cmake_macros.html">Rock CMake Macros</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#initialization">Initialization</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#executable-targets-ttrockexecutablett">Executable Targets (<tt>rock_executable</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#library-targets-ttrocklibrarytt">Library Targets (<tt>rock_library</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#vizkit-plugin-targets-ttrockvizkitplugintt">Vizkit Plugin Targets (<tt>rock_vizkit_plugin</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#vizkit-widget-targets-ttrockvizkitwidgettt">Vizkit Widget Targets (<tt>rock_vizkit_widget</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/cmake_macros.html#test-suite-targets-ttrocktestsuitett">Test Suite Targets (<tt>rock_testsuite</tt>)</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="packages/outside_of_rock.html">Using Rock packages outside of Rock</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="packages/outside_of_rock.html#preparations">Preparations</a></li>
+                                <li class="webgen-menu-level3"><a href="packages/outside_of_rock.html#how-to-build-the-other-packages">How to build the other packages</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="contributing/index.html">Contributing</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="contributing/documentation.html">Documentation</a></li>
+                        <li class="webgen-menu-level2"><a href="contributing/bugreports.html">Reporting Bugs</a></li>
+                        <li class="webgen-menu-level2"><a href="contributing/packages.html">Packages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="contributing/packages.html#add-your-package-to-rock">Add your package to Rock</a></li>
+                                <li class="webgen-menu-level3"><a href="contributing/packages.html#publish-your-package-set-in-rock">Publish your package set in Rock</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="contributing/merge_changes_to_rock-core.html">Sending Your Changes</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="contributing/merge_changes_to_rock-core.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="contributing/merge_changes_to_rock-core.html#create-your-own-working-copy">Create your own working copy</a></li>
+                                <li class="webgen-menu-level3"><a href="contributing/merge_changes_to_rock-core.html#configure-your-rock-installation">Configure your Rock installation</a></li>
+                                <li class="webgen-menu-level3"><a href="contributing/merge_changes_to_rock-core.html#create-pull-requests">Create pull requests</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1"><a href="../pkg">Packages API</a></li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="tutorials/index.html">Basics</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="tutorials/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/index.html#rock-tutorials">Rock Tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/index.html#what-to-expect-from-the-basic-tutorials">What to expect from the basic tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/index.html#quick-start">Quick Start.</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/index.html#tutorials-outline">Tutorials Outline</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/index.html#installing">Installing the tutorial results</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/100_basics_create_library.html">Creating libraries</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/100_basics_create_library.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/100_basics_create_library.html#creating-libraries">Creating libraries</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/100_basics_create_library.html#adding-the-required-functionality">Adding the required functionality</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/100_basics_create_library.html#build">Build</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/100_basics_create_library.html#build-it">Build it</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/100_basics_create_library.html#test-it">Test it</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="tutorials/100_basics_create_library.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/110_basics_create_component.html">Creating components</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/110_basics_create_component.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/110_basics_create_component.html#creating-an-orogen-component">Creating an oroGen component</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/110_basics_create_component.html#define-tasks">Define tasks</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/110_basics_create_component.html#integration-into-the-build-system">Integration into the build system</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/110_basics_create_component.html#writing-the-task">Writing the task</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="tutorials/110_basics_create_component.html#run-it">Run it</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/110_basics_create_component.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/120_basics_configure_component.html">Configure components</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/120_basics_configure_component.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/120_basics_configure_component.html#configure-a-component">Configure a component</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#update-the-build-configuration-in-srccmakeliststxt">Update the build configuration in src/CMakeLists.txt</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#embed-the-configuration-property-into-the-orogen-component">Embed the configuration property into the oroGen component</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#build-the-task">Build the task</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#embedding-configuration-into-the-ruby-script">Embedding configuration into the ruby script</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#run-it">Run it</a></li>
+                                        <li class="webgen-menu-level4"><a href="tutorials/120_basics_configure_component.html#use-a-configuration-file">Use a configuration file</a></li>
+                                        <li class="webgen-menu-level4 webgen-menu-submenu"><a href="tutorials/120_basics_configure_component.html#dynamic-properties">Dynamic properties</a>
+                                            <ul>
+                                                <li class="webgen-menu-level5"><a href="tutorials/120_basics_configure_component.html#special-case-inheriting-tasks">Special case inheriting tasks</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="tutorials/120_basics_configure_component.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/130_basics_connect_components.html">Connecting components</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/130_basics_connect_components.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/130_basics_connect_components.html#create-a-consumer-component">Create a consumer component</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/130_basics_connect_components.html#connecting-multiple-components">Connecting multiple components</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/130_basics_connect_components.html#run-it">Run it</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="tutorials/130_basics_connect_components.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/190_installing_packages.html">Installing Packages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#finding-available-packages-and-orogen-tasks">Finding available packages and oroGen tasks</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#package--package-sets">Package / Package Sets</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#adding-package-sets">Adding Package Sets</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#installing-packages">Installing Packages</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#further-reading">Further reading</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/190_installing_packages.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/200_display_logging_and_replay.html">Viewing The Data (Live / Log Files)</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/200_display_logging_and_replay.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/200_display_logging_and_replay.html#task-inspector">Task Inspector</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/200_display_logging_and_replay.html#logging-data">Logging Data</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/200_display_logging_and_replay.html#rock-replay">rock-replay</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/200_display_logging_and_replay.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/500_simulate_a_robot.html">Simulate a Robot</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/500_simulate_a_robot.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/500_simulate_a_robot.html#implementation">Implementation</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/500_simulate_a_robot.html#create-a-new-library">Create a new library</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="tutorials/500_simulate_a_robot.html#wrapping-it-up">Wrapping it up</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="tutorials/500_simulate_a_robot.html#define-task">Define task</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="tutorials/500_simulate_a_robot.html#run-it">Run it</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/510_joystick.html">Adding a Joystick into the Mix</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/510_joystick.html#tutorial-info">Tutorial Info</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/510_joystick.html#finding-a-standard-task-that-provides-a-port-x">Finding a standard task that provides a port X.</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/510_joystick.html#integration-of-the-task">Integration of the task</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/510_joystick.html#run-it">Run it</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="tutorials/520_virtual_joystick.html">Control through a Virtual Joystick</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="tutorials/520_virtual_joystick.html#tutorial-info">Tutorial Info</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/520_virtual_joystick.html#finding-the-right-widget">Finding the right widget</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/520_virtual_joystick.html#integrating-it">Integrating it</a></li>
+                                <li class="webgen-menu-level3"><a href="tutorials/520_virtual_joystick.html#run-it">Run it</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="advanced_tutorials/index.html">Advanced</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/index.html#advanced-rock-tutorials">Advanced Rock Tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/index.html#what-to-expect-from-the-advanced-tutorials">What to expect from the advanced tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/index.html#installing">Installing the tutorial results</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/100_deployments.html">Deployments</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/100_deployments.html#defining-deployments">Defining deployments</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/100_deployments.html#usage-in-ruby-scripts">Usage in Ruby scripts</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/200_replay_1.html">Replaying data in scripts</a></li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/210_data_visualization.html">Data Visualization</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#displaying-data-with-vizkit">Displaying Data with Vizkit</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#designing-a-custom-gui">Designing a custom GUI</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#connecting-a-custom-gui-to-an-orocos-task">Connecting a custom GUI to an orocos task</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#connecting-a-custom-gui-to-log-files">Connecting a custom GUI to log files</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/210_data_visualization.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/220_3d_data_visualization.html">3D Data Visualization</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/220_3d_data_visualization.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/220_3d_data_visualization.html#vizkit-3d">Vizkit 3D</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/220_3d_data_visualization.html#how-to-use-it">How to use it</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/220_3d_data_visualization.html#feeding-data-to-your-plugin">Feeding data to your plugin</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/300_vizkit_widget.html">Writing a Vizkit C++ Widget</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/300_vizkit_widget.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/300_vizkit_widget.html#create-qt-designer-widget">Create Qt Designer Widget</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/300_vizkit_widget.html#access-widget-from-ruby">Access widget from Ruby</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/300_vizkit_widget.html#register-the-widget-to-be-accessible-via-taskinspector-and-rockreplay">Register the Widget to be accessible via TaskInspector and RockReplay</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/300_vizkit_widget.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/600_vizkit_plugin.html">Writing a 3D Vizkit plugin</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/600_vizkit_plugin.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/600_vizkit_plugin.html#implementation">Implementation</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/600_vizkit_plugin.html#displaying-more-than-one-type-with-a-single-plugin">Displaying more than one type with a single plugin</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/600_vizkit_plugin.html#configuration-interface">Configuration Interface</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/600_vizkit_plugin.html#interfacing-with-ruby-scripts">Interfacing with Ruby scripts</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/620_multi_widget_display.html">Multi Widget Display</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/620_multi_widget_display.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/620_multi_widget_display.html#compounddisplay">CompoundDisplay</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="advanced_tutorials/700_nameservice.html">Using Avahi to find the tasks</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/700_nameservice.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/700_nameservice.html#ruby-scripts">Ruby scripts</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="advanced_tutorials/700_nameservice.html#the-avahi-name-service">The Avahi name service</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="advanced_tutorials/700_nameservice.html#run-it">Run it</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="advanced_tutorials/700_nameservice.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="system_management_tutorials/index.html">System Management</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/index.html">Introduction</a></li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/100_moving_to_bundles.html">Moving to bundles</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/100_moving_to_bundles.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/100_moving_to_bundles.html#create-the-bundle">Create the bundle</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/100_moving_to_bundles.html#logs-in-bundles">Logs in bundles</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/100_moving_to_bundles.html#move-on-to-the-next-tutorial">Move on to the next tutorial</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/200_first_composition.html">First composition</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#a-first-model-based-script">A first model-based script</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#checking-the-script-and-running-the-network">Checking the script and running the network</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#stopping-the-script">Stopping the script</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#what-happened-">What happened ?</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/200_first_composition.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/300_services.html">Going abstract - Data Services</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#data-services">Data Services</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#abstracting-the-command-generator">Abstracting the command generator</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#adding-a-random-motion-generator">Adding a random-motion generator</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#running-the-final-network">Running the final network</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/300_services.html#conclusion">Conclusion</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/400_runtime_workflow.html">Runtime Workflow</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/400_runtime_workflow.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/400_runtime_workflow.html#starting-and-restarting-processes">Starting and restarting processes</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/400_runtime_workflow.html#defining-modalities">Defining modalities</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/400_runtime_workflow.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/500_config_files.html">Configuration files</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/500_config_files.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/500_config_files.html#presentation">Presentation</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/500_config_files.html#multiple-component-configurations">Multiple Component Configurations</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/500_config_files.html#multiple-composition-configurations">Multiple Composition Configurations</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/500_config_files.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/600_more_complex.html">Refining models - a leader/follower system</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#abstract">Abstract</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#the-leader-follower-system">The leader-follower system</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#reusing-models">Reusing Models</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#specializations">Specializations</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#adding-ports-to-compositions">Adding ports to compositions</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/600_more_complex.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/700_file_structure.html">Bundle File Structure</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#blueprints">Blueprints</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#task-context-modelling">Task Context Modelling</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#specializations">Specializations</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#definitions">Definitions</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#deployments">Deployments</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#finally">Finally</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/700_file_structure.html#reusing-other-bundles">Reusing other Bundles</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/800_devices.html">Devices</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/800_devices.html#joystick-device">Joystick Device</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/800_devices.html#robot-definition">Robot Definition</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/800_devices.html#declaring-the-rocks-as-devices">Declaring the &lsquo;rocks&rsquo; as devices</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/800_devices.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/900_reusing_profiles.html">Reusing Profiles</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/900_reusing_profiles.html#abstracting-the-sensor-component">Abstracting the sensor component</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/900_reusing_profiles.html#reusing-profiles">Reusing Profiles</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/900_reusing_profiles.html#conclusion">Conclusion</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/1000_transformer.html">Transformer</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#enabling-the-transformer">Enabling the transformer</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#assigning-expected-frames">Assigning Expected Frames</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#declaring-frame-transforms">Declaring Frame Transforms</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#frame-consistency">Frame Consistency</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#sharing-configuration-between-ruby-scripts-and-syskit">Sharing configuration between Ruby scripts and Syskit</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1000_transformer.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/1100_action_state_machines.html">Action State Machines</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1100_action_state_machines.html#defining-state-machines">Defining State Machines</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1100_action_state_machines.html#runtime-behaviour">Runtime Behaviour</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1100_action_state_machines.html#combining-state-machines">Combining State Machines</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1100_action_state_machines.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/1200_data_monitors.html">Data Monitors</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1200_data_monitors.html#defining-data-monitors">Defining Data Monitors</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1200_data_monitors.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system_management_tutorials/1300_fault_response_tables.html">Fault Response Tables</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1300_fault_response_tables.html#data-monitoring-tables">Data Monitoring Tables</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1300_fault_response_tables.html#fault-response-tables">Fault Response Tables</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1300_fault_response_tables.html#activating-tables">Activating Tables</a></li>
+                                <li class="webgen-menu-level3"><a href="system_management_tutorials/1300_fault_response_tables.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="setting_up_a_project/index.html">Setting up a New Project</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/index.html">Introduction</a></li>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/100_setting_up_the_build_system.html">Setting up the build system</a></li>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/200_adding_to_git.html">Add build system to git</a></li>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/300_bundles.html">Bundles in Rock</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="setting_up_a_project/300_bundles.html#creating-the-bundle">Creating the bundle</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/400_configuration_files_for_tasks.html">Configuration files for tasks</a></li>
+                        <li class="webgen-menu-level2"><a href="setting_up_a_project/500_configure_transformer.html">Configuring the transformer</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1"><a href="base_types.html">Base Types</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="base_types.html#introduction">Introduction</a></li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="base_types.html#basic-types">Basic Types</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="base_types.html#time">Time</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#timemark">TimeMark</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#angle">Angle</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#matrix--vector">Matrix / Vector</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#pose">Pose</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#motion-command">Motion Command</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#odometry">Odometry</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#waypoint">Waypoint</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#samples">Samples</a></li>
+                                <li class="webgen-menu-level3"><a href="base_types.html#actuators">Actuators</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="autoproj/index.html">Build System</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="autoproj/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/index.html#what-is-autoproj">What is Autoproj</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/index.html#overview-of-an-autoproj-installation">Overview of an autoproj installation</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/index.html#software-packages-in-autoproj">Software packages in Autoproj</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/bootstrap.html">Bootstrapping</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/bootstrap.html#bootstrapping">Bootstrapping</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/basic_usage.html">Basic usage</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/basic_usage.html#shell_helpers">Shell helpers</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/basic_usage.html#switching-configuration">Switching configuration</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/customization.html">Customizing the installation</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#changing-the-installations-layout">Changing the installation&rsquo;s layout</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#exclude_packages">Removing packages from the build (<tt>exclude_packages</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#using-packages-that-are-already-installed-ttignorepackagestt">Using packages that are already installed (<tt>ignore_packages</tt>)</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#local-overrides-of-version-control-information">Local overrides of version control information</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#tuning-what-files-autoproj-looks-at-to-determine-if-a-package-should-be-updated">Tuning what files autoproj looks at to determine if a package should be updated</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#building-local-packages">Building local packages</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#setting-up-the-path-to-specific-commands-make-parallel-builds">Setting up the path to specific commands (make, parallel builds)</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#more-complex-customization">More complex customization</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/customization.html#building-packages-selectively-on-the-command-line">Building packages selectively on the command line</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/adding_packages.html">Adding packages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/adding_packages.html#building-a-new-package">Building a new package</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/adding_packages.html#importing-a-package-from-a-vcs">Importing a package from a VCS</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/adding_packages.html#sharing-package-definitions-with-the-rest-of-the-world">Sharing package definitions with the rest of the world</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/writing_manifest.html">The manifest file.</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/writing_manifest.html#structure">Structure</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/writing_manifest.html#listing-and-adding-package-sets">Listing and adding package sets</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/writing_manifest.html#listing-the-available-packages">Listing the available packages.</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/writing_manifest.html#picking-the-packages-to-build">Picking the packages to build</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/error_messages.html">Understanding autoproj error messages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/error_messages.html#i-know-nothing-about-a-prepackaged-package-called-xxxx-">I know nothing about a prepackaged package called &lsquo;XXXX&rsquo;, &hellip;</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/error_messages.html#exclusions">XXX depends on YYY, which is excluded from the build</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="autoproj/osdeps.html">The osdeps system</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/osdeps.html#declaring-and-inspecting-dependencies">Declaring and inspecting dependencies</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/osdeps.html#fine-tuning-the-osdeps-behaviour">Fine-tuning the osdeps behaviour</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/osdeps.html#behaviour-during-bootstrapping">Behaviour during bootstrapping</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/osdeps.html#behaviour-on-operating-systems-os-not-supported-by-autoproj">Behaviour on operating systems (OS) not supported by autoproj</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/osdeps.html#getting-a-bit-of-help-from-autoproj-even-in-modes-different-than-all">Getting a bit of help from autoproj even in modes different than &lsquo;all&rsquo;</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="autoproj/advanced/index.html">Advanced</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/index.html">Advanced Topics</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/query.html">Tooling with shell scripts</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/query.html#query-syntax">Query Syntax</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/query.html#query-fields">Query Fields</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/query.html#output-formatting">Output Formatting</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/query.html#examples">Examples</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/manifest-xml.html">The manifest.xml file</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/creating_pkg_set.html">Creating a package set</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/creating_pkg_set.html#adding-a-package">Adding a package</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/creating_pkg_set.html#autobuild-scripts">Autobuild scripts</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/creating_pkg_set.html#sourceyml">source.yml</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/creating_pkg_set.html#interaction-between-package-sets-definition-files">Interaction between package sets definition files</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/creating_pkg_set.html#configopts">Using configuration options</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/autobuild.html">Writing autobuild scripts</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#defining-cmake-packages">Defining CMake packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#autotools">Defining autotools packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#defining-ruby-packages">Defining Ruby packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#defining-orogen-packages">Defining oroGen packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#not_on_and_only_on">OS-specific bits (<tt>not_on</tt> and <tt>only_on</tt>)</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#custom-package-building">Custom package building</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#declaring-documentation-targets">Declaring documentation targets</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#defining-dependencies">Defining dependencies</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autobuild.html#defining-and-using-options">Defining and using options</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/writing_package_handlers.html">Writing Package Handlers</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/writing_package_handlers.html#reporting">Reporting</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/writing_package_handlers.html#running-subcommands">Running Subcommands</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/importers.html">Package import</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#common-importer-options">Common Importer Options</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#all_importers">Git</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#subversion">Subversion</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#cvs">CVS</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#tar-archives">Tar archives</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/importers.html#patching-the-source-once-it-is-checked-outupdated">Patching the source once it is checked out/updated</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/package_dependencies.html">Package Dependencies</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/package_dependencies.html#when-to-make-a-dependency-optional">When to make a dependency optional</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/package_dependencies.html#dependencies-in-the-packages-manifestxml">Dependencies in the package&rsquo;s manifest.xml</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/package_dependencies.html#dependencies-in-autobuild-files">Dependencies in autobuild files</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/cross_set_dependencies.html">Cross-Set Dependencies</a></li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/osdeps.html">Operating System dependencies</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/osdeps.html#defining-dependencies-between-source-packages-and-os-packages">Defining dependencies between source packages and OS packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/osdeps.html#os-packages">OS packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/osdeps.html#rubygems-packages">RubyGems packages</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/osdeps.html#ignoring-some-dependencies">Ignoring some dependencies</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/osdeps.html#relationship-between-source-packages-and-osdeps-packages">Relationship between source packages and osdeps packages</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="autoproj/advanced/autoproj_osdeps.html">Supporting new OSes in autoproj</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autoproj_osdeps.html#adding-support-in-autoproj">Adding support in autoproj</a></li>
+                                        <li class="webgen-menu-level4"><a href="autoproj/advanced/autoproj_osdeps.html#testing">Testing</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../api/autoproj/index.html">Autoproj API</a></li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../api/autobuild/index.html">Autobuild API</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="orogen/index.html">Developing Components</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="orogen/index.html">The Workflow</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/index.html#what-are-orogen-and-typegen">What are oroGen and typeGen</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/index.html#tutorials">Tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/index.html#the-development-workflow">The Development Workflow</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/index.html#the-runtime-workflow">The Runtime Workflow</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="orogen/orogen_cheat_sheet.pdf">Cheat Sheet (PDF)</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/type_definitions.html">Type definitions</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/task_interface.html">Task Interface</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#interface-elements">Interface Elements</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#limits-on-types-used-in-the-interface">Limits on Types Used in the Interface</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#ports">Ports</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#properties">Properties</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#operations">Operations</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#c-objects-representing-the-interface-elements">C++ objects representing the interface elements</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#default-and-required-activities">Default and required activities</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_interface.html#dynamic-ports">Dynamic Ports</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="orogen/task_states.html">Task States</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/task_states.html#the-nominal-rtt-state-machine">The nominal RTT state machine</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_states.html#error-handling-in-the-full-rtt-state-machine">Error handling in the full RTT state machine</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_states.html#designing-states-in-orogen-components">Designing states in oroGen components</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_states.html#needs_configuration">Components that need configuration</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/task_states.html#extended_states">Extending the state machine</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="orogen/task_inheritance.html">Task Inheritance</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/deployment.html">Deployments</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/deployment.html#the-deployment-block">The deployment block</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/deployment.html#instanciating-tasks">Instanciating tasks</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/deployment.html#threading">Threading</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/deployment.html#initial-setup-of-the-generated-deployment">Initial setup of the generated deployment</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/deployment.html#logger-integration">Logger integration</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="orogen/triggering/index.html">Triggering</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/triggering/index.html">Triggering Mechanisms</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/triggering/periodic.html">Periodic Triggering</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/periodic.html#declaration">Declaration</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/periodic.html#c-task-implementation">C++ task implementation</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="orogen/triggering/ports.html">Data-Driven Tasks</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/ports.html#declaration">Declaration</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/ports.html#c-task-implementation">C++ task implementation</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/ports.html#deployment">Deployment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="orogen/triggering/fd.html">FD-driven tasks</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/fd.html#declaration">Declaration</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/fd.html#mandatory-setup-in-the-c-task">Mandatory setup in the C++ task</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/triggering/fd.html#runtime-use-in-updatehook">Runtime use in updateHook()</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="orogen/cross_project.html">Cross-project dependencies</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/plugins.html">Advanced - Writing oroGen plugins</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/orogen_additions_to_rtt.html">Advanced - oroGen additions to the standard RTT component interface</a></li>
+                        <li class="webgen-menu-level2"><a href="orogen/opaque_types.html">Advanced - Opaque types</a></li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../api/orogen/index.html">API</a></li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="orogen/transports/index.html">Transports</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="orogen/transports/index.html">Transports</a></li>
+                                <li class="webgen-menu-level3"><a href="orogen/transports/ros.html">ROS</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="orogen/transports/ros.html#automatic-ros-message-convertion">Automatic ROS Message Convertion</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/transports/ros.html#reusing-existing-ros-messages">Reusing Existing ROS Messages</a></li>
+                                        <li class="webgen-menu-level4"><a href="orogen/transports/ros.html#example">Example</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="runtime/index.html">Running Components</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="runtime/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/index.html#running-components-using-ruby">Running components using Ruby</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/index.html#tutorials">Tutorials</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/quickstart.html">Quickstart</a></li>
+                        <li class="webgen-menu-level2"><a href="runtime/oroinspect.html">oroinspect - finding out what is there</a></li>
+                        <li class="webgen-menu-level2"><a href="runtime/ruby_and_types.html">oroGen types and Ruby scripts</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/ruby_and_types.html#general-api">General API</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="runtime/ruby_and_types.html#mapping-between-c-and-ruby">Mapping between C++ and Ruby</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="runtime/ruby_and_types.html#structures">Structures</a></li>
+                                        <li class="webgen-menu-level4"><a href="runtime/ruby_and_types.html#arrays">Arrays</a></li>
+                                        <li class="webgen-menu-level4"><a href="runtime/ruby_and_types.html#stdvector">std::vector</a></li>
+                                        <li class="webgen-menu-level4"><a href="runtime/ruby_and_types.html#enums">Enums</a></li>
+                                        <li class="webgen-menu-level4"><a href="runtime/ruby_and_types.html#opaque-types-advanced-subject">Opaque Types (ADVANCED SUBJECT)</a></li>
+                                    </ul>
+                                </li>
+                                <li class="webgen-menu-level3"><a href="runtime/ruby_and_types.html#customization-on-the-ruby-side">Customization on the Ruby side</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/ruby_and_types.html#direct-access-to-the-type-models">Direct Access to the Type Models</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/setup.html">Starting the system up</a></li>
+                        <li class="webgen-menu-level2"><a href="runtime/debugging.html">Debugging Components</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/debugging.html#gdb">GDB</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/debugging.html#valgrind">Valgrind</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/debugging.html#ignore-rtt-exception-handling">Ignore RTT Exception Handling</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/tasks.html">Manipulating tasks</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/tasks.html#getting-a-hold-on-task-contexts">Getting a hold on task contexts</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/tasks.html#manipulating-and-monitoring-the-components-state">Manipulating and monitoring the component&rsquo;s state</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/properties.html">Properties</a></li>
+                        <li class="webgen-menu-level2"><a href="runtime/ports.html">Data connections</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/ports.html#port-access">Port access</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/ports.html#creating-connections">Creating connections</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/ports.html#disconnecting">Disconnecting</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/ports.html#reading-outputs-or-writing-inputs">Reading outputs or writing inputs</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/configuration.html">Configuration Files</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/configuration.html#configuration-file-format">Configuration file format</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/configuration.html#using-single-configuration-files">Using single configuration files</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/configuration.html#configuration-directories">Configuration directories</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/configuration.html#generating-configuration-files-from-the-tasks">Generating configuration files from the tasks</a></li>
+                                <li class="webgen-menu-level3"><a href="runtime/configuration.html#generating-configuration-files-from-property-logs">Generating configuration files from property logs</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="runtime/error_messages.html">Error messages</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="runtime/error_messages.html#failed-to-contact-the-name-server-orocoscorbaerror">failed to contact the name server (Orocos::CORBAError)</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2 webgen-menu-submenu"><a href="../api/tools/orocos.rb/index.html">API</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="system/index.html">System Management</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="system/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/index.html#advanced-system-deployment">Advanced System Deployment</a></li>
+                                <li class="webgen-menu-level3"><a href="system/index.html#tutorials">Tutorials</a></li>
+                                <li class="webgen-menu-level3"><a href="system/index.html#naming_convertion">Naming conventions</a></li>
+                                <li class="webgen-menu-level3"><a href="system/index.html#models-classes-and-instances">Models, classes and instances</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/general_concept.html">General Concept</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/general_concept.html#bundles">Bundles</a></li>
+                                <li class="webgen-menu-level3"><a href="system/general_concept.html#components">Components</a></li>
+                                <li class="webgen-menu-level3"><a href="system/general_concept.html#browsing">Browsing</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/workflow.html">Workflow</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/workflow.html#step-1-modelling">Step 1: Modelling</a></li>
+                                <li class="webgen-menu-level3"><a href="system/workflow.html#step-2-subsystem-design">Step 2: Subsystem Design</a></li>
+                                <li class="webgen-menu-level3"><a href="system/workflow.html#step-3-runtime-deployment">Step 3: Runtime deployment</a></li>
+                                <li class="webgen-menu-level3"><a href="system/workflow.html#next-pages">Next pages</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/robot.html">Robot Configurations</a></li>
+                        <li class="webgen-menu-level2"><a href="system/data_services.html">Data Services</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/data_services.html#model-hierarchy">Model Hierarchy</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/task_contexts.html">Task Contexts</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/task_contexts.html#modelling">Modelling</a></li>
+                                <li class="webgen-menu-level3"><a href="system/task_contexts.html#configuration">Configurations</a></li>
+                                <li class="webgen-menu-level3"><a href="system/task_contexts.html#extend">Extending the Model</a></li>
+                                <li class="webgen-menu-level3"><a href="system/task_contexts.html#provides">Providing Data Services</a></li>
+                                <li class="webgen-menu-level3"><a href="system/task_contexts.html#extend-with-code">Extending with standard Roby execution features</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/compositions.html">Compositions</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/compositions.html#providing-services">Providing Services</a></li>
+                                <li class="webgen-menu-level3"><a href="system/compositions.html#configuration">Configuration</a></li>
+                                <li class="webgen-menu-level3"><a href="system/compositions.html#dependency-specification-tasks-and-behaviours-advanced">Dependency specification: tasks and behaviours (advanced)</a></li>
+                                <li class="webgen-menu-level3"><a href="system/compositions.html#extending-the-composition-models">Extending the Composition Models</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/subsystem_design.html">Subsystem Design</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/subsystem_design.html#instance-requirements">Instance Requirements</a></li>
+                                <li class="webgen-menu-level3"><a href="system/subsystem_design.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/profiles.html">Profiles</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/profiles.html#profiles">Profiles</a></li>
+                                <li class="webgen-menu-level3"><a href="system/profiles.html#profile-wide-selections">Profile-wide selections</a></li>
+                                <li class="webgen-menu-level3"><a href="system/profiles.html#reusing-profiles">Reusing Profiles</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/devices.html">Devices</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/devices.html#declaring-devices">Declaring devices</a></li>
+                                <li class="webgen-menu-level3"><a href="system/devices.html#communication-busses">Communication Busses</a></li>
+                                <li class="webgen-menu-level3"><a href="system/devices.html#declaring-device-drivers">Declaring Device Drivers</a></li>
+                                <li class="webgen-menu-level3"><a href="system/devices.html#robot-definitions">Robot Definitions</a></li>
+                                <li class="webgen-menu-level3"><a href="system/devices.html#combus-support-advanced">Combus Support <strong>(Advanced)</strong></a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/file_layout.html">Syskit-enabled Bundles</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/file_layout.html#creating-syskit-enabled-roby-applications">Creating Syskit-enabled Roby applications</a></li>
+                                <li class="webgen-menu-level3"><a href="system/file_layout.html#syskit-specific-file-layout">Syskit-specific File Layout</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/interaction.html">Running and interacting with a Roby/Syskit system</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/interaction.html#using-profiles-as-roby-actions">Using profiles as Roby actions</a></li>
+                                <li class="webgen-menu-level3"><a href="system/interaction.html#deploying-subsystems-through-the-action-interface">Deploying subsystems through the action interface</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/dataflow_dynamics.html">Dataflow Dynamics</a></li>
+                        <li class="webgen-menu-level2"><a href="system/dynamic_services.html">Dynamic Services</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/dynamic_services.html#modelling-api">Modelling API</a></li>
+                                <li class="webgen-menu-level3"><a href="system/dynamic_services.html#dynamic-services-and-rtt-task-contexts">Dynamic Services and RTT Task Contexts</a></li>
+                                <li class="webgen-menu-level3"><a href="system/dynamic_services.html#complete-example">Complete Example</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="system/naming_conventions.html">Naming Conventions</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="system/naming_conventions.html#component-level-orogen-rtt--ros-tasks">Component level: Orogen (RTT) / ROS Tasks</a></li>
+                                <li class="webgen-menu-level3"><a href="system/naming_conventions.html#supervision-level">Supervision level</a></li>
+                                <li class="webgen-menu-level3"><a href="system/naming_conventions.html#file-system-level">File system level</a></li>
+                                <li class="webgen-menu-level3"><a href="system/naming_conventions.html#reuse-and-specialization">Reuse and specialization</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="../api/tools/syskit">Syskit</a></li>
+                        <li class="webgen-menu-level2"><a href="../api/tools/roby/index.html">Roby guide</a></li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="data_analysis/index.html">Data Analysis</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="data_analysis/index.html">Overview</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_analysis/index.html#data-analysis">Data Analysis</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_analysis/logging.html">Setting Up Data Logging</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_analysis/logging.html#the-setup">The setup</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/logging.html#making-orogen-deployments-logging-ready">Making oroGen deployments logging-ready</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/logging.html#logging-all-output-ports-using-orocosrb">Logging all output ports using Orocos.rb</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/logging.html#hand-made-logging-using-orocosrb">Hand-made logging using orocos.rb</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_analysis/reading_logfiles.html">Reading Log Data</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_analysis/reading_logfiles.html#pocolog-command-line-inspection-of-log-files">pocolog: command-line inspection of log files</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/reading_logfiles.html#getting-the-data-as-a-csv-file">Getting the data as a CSV file</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/reading_logfiles.html#reading-log-files-using-ruby-scripts">Reading log files using Ruby scripts</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_analysis/replaying_logfiles.html">Replay Log Data</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#features">Features</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#usage">Usage</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#time">Understanding time in log files</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#example-loading-and-accessing-log-data">Example: Loading and accessing log data:</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#example-loading-and-replaying-log-data">Example: Loading and replaying log data</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#example-filtering-log-data">Example: Filtering log data</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/replaying_logfiles.html#example-advanced">Example: Advanced</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_analysis/converting_logfiles.html">Updating log files</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_analysis/converting_logfiles.html#updating-base-type-samples">Updating base-type samples</a></li>
+                                <li class="webgen-menu-level3"><a href="data_analysis/converting_logfiles.html#updating-custom-samples">Updating custom samples</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="graphical_user_interface/index.html">Graphical User Interface</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/index.html">Overview</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/index.html#vizkit">Vizkit</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/index.html#d-visualization">2D Visualization</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/index.html#d-visualization-1">3D Visualization</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/200_simple_gui.html">Developing a Simple GUI</a></li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/300_displaying_logfiles.html">Displaying Log Files</a></li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/350_plotting.html">Plotting Data</a></li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/400_qt_designer.html">Qt Designer</a></li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/450_vizkit3d.html">Vizkit 3D</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/450_vizkit3d.html#using-vizkit3d">Using Vizkit3D</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/450_vizkit3d.html#writing-vizkit3d-plugins">Writing Vizkit3D Plugins</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/450_vizkit3d.html#adding-properties">Adding Properties</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/450_vizkit3d.html#ruby">Ruby</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/500_available_widgets.html">Available Widgets</a></li>
+                        <li class="webgen-menu-level2"><a href="graphical_user_interface/600_writing_vizkit_widget.html">Writing Vizkit Widgets</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/600_writing_vizkit_widget.html#writing-custom-ruby-widgets">Writing Custom ruby Widgets</a></li>
+                                <li class="webgen-menu-level3"><a href="graphical_user_interface/600_writing_vizkit_widget.html#writing-custom-c-widgets">Writing Custom C++ Widgets</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="simulation/index.html">Simulating a Robot</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="simulation/index.html">Overview</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="simulation/index.html#what-is-robot-simulation">What is Robot Simulation</a></li>
+                                <li class="webgen-menu-level3"><a href="simulation/index.html#background-of-the-rock-mars-integration">Background of the Rock Mars Integration</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="simulation/100_design_background.html">Design Background</a></li>
+                        <li class="webgen-menu-level2"><a href="simulation/200_usage_of_the_simulation.html">Usage Simulation</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="simulation/200_usage_of_the_simulation.html#setting-up-the-system">Setting up the System</a></li>
+                                <li class="webgen-menu-level3"><a href="simulation/200_usage_of_the_simulation.html#configuring-plugins">Configuring Plugins</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="data_processing/index.html">Data Processing</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="data_processing/index.html">Data Acquisition</a></li>
+                        <li class="webgen-menu-level2"><a href="data_processing/data.html">Data is King</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/data.html#timestamping">Timestamping</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/data.html#time-ordered-data-processing">Time-ordered data processing</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/timestamping.html">The timestamp estimator</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamping.html#filtering-jitter">Filtering jitter</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamping.html#estimating-latency">Estimating latency</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/timestamp_estimator_usage.html">  ... API and oroGen usage</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamp_estimator_usage.html#the-timestampestimator-class">The TimestampEstimator class</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamp_estimator_usage.html#timestamper-usage">Timestamper Usage</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamp_estimator_usage.html#handling-bursts-and-lost-packages">Handling bursts and lost packages</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamp_estimator_usage.html#estimating-latency-through-hardware-timestamps">Estimating latency through hardware timestamps</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/timestamp_estimator_usage.html#timestampestimator-at-the-orogen-level">TimestampEstimator at the oroGen level</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/stream_aligner.html">Processing Data - the Stream Aligner</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/stream_aligner.html#stream-aligner-principles">Stream Aligner Principles</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/stream_aligner.html#period-latency-and-stream-aligner-timeout">Period, latency and stream aligner timeout</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/stream_aligner.html#using-the-stream-aligner">Using the stream aligner</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/stream_aligner_orogen.html">  ... in oroGen</a></li>
+                        <li class="webgen-menu-level2"><a href="data_processing/stream_aligner_runtime.html">  ... at Runtime</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/stream_aligner_runtime.html#monitoring">Monitoring</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/transformer.html">Handling Geometry - the Transformer</a></li>
+                        <li class="webgen-menu-level2"><a href="data_processing/transformer_orogen.html">  ... in oroGen</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_orogen.html#latency-considerations">Latency Considerations</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/transformer_runtime.html">  ... at runtime</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_runtime.html#component-interface">Component Interface</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_runtime.html#transformation-specifications">Transformation Specifications</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_runtime.html#ruby-scripting">Ruby scripting</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="data_processing/transformer_roby.html">... in Syskit</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_roby.html#the-need-for-more">The need for more</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_roby.html#additional-transformer-modelling">Additional transformer modelling</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_roby.html#transformer-configuration">Transformer configuration</a></li>
+                                <li class="webgen-menu-level3"><a href="data_processing/transformer_roby.html#instanciating-networks-with-transformations">Instanciating networks with transformations</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="device_drivers/index.html">Device Drivers</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="device_drivers/index.html">Introduction</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="device_drivers/index.html#structure">Structure</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/index.html#naming-conventions">Naming conventions</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="device_drivers/writing_driver.html">Writing a device driver</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#guidelines">Guidelines</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#opening--closing-a-device">Opening / Closing a device</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#packet-extraction">Packet Extraction</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#use-cases">Use Cases</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#type-1">Type 1</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#type-2">Type 2</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#type-2-disguised-as-type-1">Type 2 disguised as Type 1</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_driver.html#summary">Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="device_drivers/writing_orogen_driver.html">oroGen Integration</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_orogen_driver.html#guidelines">Guidelines</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_orogen_driver.html#usage">Usage</a></li>
+                                <li class="webgen-menu-level3"><a href="device_drivers/writing_orogen_driver.html#details-about-the-iodriversbasetask-interface">Details about the iodrivers_base::Task interface</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="envire/index.html">Envire</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="envire/index.html">Overview</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="envire/index.html#envire-rationale">Envire Rationale</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/index.html#overview">Overview</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="envire/core.html">Core Features</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="envire/core.html#creation--object-ownership">Creation &amp; Object Ownership</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/core.html#structure">Structure</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/core.html#serialization">Serialization</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="envire/frames.html">Frame Tree</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="envire/frames.html#frame-tree">Frame Tree</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/frames.html#transformation">Transformation</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/frames.html#uncertainty">Uncertainty</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="envire/maps.html">Maps</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="envire/maps.html#maps">Maps</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/maps.html#metadata">Metadata</a></li>
+                                <li class="webgen-menu-level3"><a href="envire/maps.html#examples-of-maps">Examples of Maps</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="envire/operators.html">Operators</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="envire/operators.html#operators">Operators</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="debugging/index.html">Debugging Techniques</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="debugging/index.html">Base Logging</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="debugging/index.html#introduction">Introduction</a></li>
+                                <li class="webgen-menu-level3"><a href="debugging/index.html#adding-the-base-logger-to-a-library">Adding the base logger to a library</a></li>
+                                <li class="webgen-menu-level3"><a href="debugging/index.html#using-the-logger">Using the logger</a></li>
+                                <li class="webgen-menu-level3 webgen-menu-submenu"><a href="debugging/index.html#configuring-the-base-logger">Configuring the base logger</a>
+                                    <ul>
+                                        <li class="webgen-menu-level4"><a href="debugging/index.html#compile-time">Compile-time</a></li>
+                                        <li class="webgen-menu-level4"><a href="debugging/index.html#at-run-time">At run-time</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="webgen-menu-level1 webgen-menu-submenu"><a href="ros/index.html">ROS/Rock bridge</a>
+                    <ul>
+                        <li class="webgen-menu-level2"><a href="ros/index.html">The ROS-Rock Bridge</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="ros/index.html#current-state">Current state</a></li>
+                                <li class="webgen-menu-level3"><a href="ros/index.html#future-work">Future Work</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="ros/installation.html">Installation</a></li>
+                        <li class="webgen-menu-level2"><a href="ros/data_types.html">Data Types</a></li>
+                        <li class="webgen-menu-level2"><a href="ros/runtime.html">Runtime Setup</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="ros/runtime.html#connecting-ros-nodes-and-rock-components">Connecting ROS nodes and Rock components</a></li>
+                            </ul>
+                        </li>
+                        <li class="webgen-menu-level2"><a href="ros/example.html">Example</a>
+                            <ul>
+                                <li class="webgen-menu-level3"><a href="ros/example.html#step-1-data-type-convertion">Step 1: Data Type Convertion</a></li>
+                                <li class="webgen-menu-level3"><a href="ros/example.html#step-2-runtime-setup-via-topics">Step 2: Runtime Setup via Topics</a></li>
+                                <li class="webgen-menu-level3"><a href="ros/example.html#step-3-using-the-rock-tooling">Step 3: Using the Rock tooling</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
