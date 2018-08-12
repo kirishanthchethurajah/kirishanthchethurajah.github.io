@@ -1,0 +1,147 @@
+---
+layout: page
+title: Configuration Files
+section: Running Components
+---
+<div class="content2">
+
+         <div class="content2-pagetitle">Configuration Files</div>
+
+         <div class="content2-container line-box">
+             <div class="content2-container-1col">
+
+
+                 <p>Instead of writing configuration values in a Ruby script, one can also write
+down the configuration of a whole task in a YAML file, that then gets loaded
+through the Ruby API.</p>
+
+<p>The benefits of doing it this way is twofold:</p>
+
+<ul>
+ <li>one can store multiple parallel configurations in the same file and select
+them by their name (as e.g. the &ldquo;static&rdquo; and &ldquo;sweeping&rdquo; configurations for a
+pan-tilt unit)</li>
+ <li>this is the way configuration is handled in Rock&rsquo;s <a href="../system/index.html">system management
+layer</a>, so &ndash; if
+you use these files &ndash; you will be able to share these configurations between
+the system management and pure ruby scripts.</li>
+</ul>
+
+<p>Configuration files are YAML files with a specific format.  These files specify
+values for task &lsquo;'&rsquo;properties&rsquo;&rsquo;&rsquo; (which are supposed to describe the
+configuration interface of a component).</p>
+
+<p>This page will cover the configuration file format and how these files can be
+used in Ruby scripts.</p>
+
+<h2 id="configuration-file-format">Configuration file format</h2>
+
+<ul>
+ <li>configuration files are YAML sections separated by some section declarations</li>
+ <li>a file contains multiple configurations for a single type of tasks (i.e.
+configurations for the hokuyo::Task tasks)</li>
+</ul>
+
+<p>It looks like:</p>
+
+<pre><code class="language-yaml">--- name:default
+port: /dev/ttyS1
+--- name:with_remission
+remission_values: true
+</code></pre>
+
+<p>The above example defines two possible configurations for the hokuyo::Task task
+context. The two configurations have names (default and with_remission).</p>
+
+<h2 id="using-single-configuration-files">Using single configuration files</h2>
+
+<p>Store configuration(s) in a single file of the format described above. Then, use
+orocos.apply_conf_file with the file name and the configurations that should be
+applied.</p>
+
+<p>For instance,</p>
+
+<pre><code class="language-ruby">task = Orocos.name_service.get 'hokuyo'
+Orocos.apply_conf_file(task, 'hokuyo.yml', ['default', 'with_remission'])
+</code></pre>
+
+<p>In the list of configuration names, later values will override newer ones. So,
+if hokuyo.yml contains</p>
+
+<pre><code class="language-yaml">--- name:default
+port: /dev/ttyS1
+remission_values: false
+--- name:with_remission
+remission_values: true
+</code></pre>
+
+<p>Then the resulting configuration, above, will be </p>
+
+<pre><code class="language-yaml">port: /dev/ttyS1
+remission_values: true
+</code></pre>
+
+<h2 id="configuration-directories">Configuration directories</h2>
+
+<p>A &ldquo;configuration database&rdquo; can be created in a directory by creating files whose
+name is the task model name. For instance, the hokuyo configuration file would
+be named &lsquo;'&rsquo;hokuyo::Task.yml&rsquo;&rsquo;&rsquo;</p>
+
+<p>Given such a directory, one can load all the configurations at once and apply
+them more easily:</p>
+
+<pre><code class="language-ruby">Orocos.conf.load_dir('/path/to/configuration/directory')
+
+task = Orocos.name_service.get 'hokuyo'
+Orocos.conf.apply(task, ['default', 'with_remission'])
+</code></pre>
+
+<p>Multiple directories can be loaded. When loading a new directory, if a
+configuration is found with the same name than an existing configuration, the
+new one takes precedence.</p>
+
+<p>The main advantage of this method over the simple script method above is that it
+is compatible with the system management system: one can share configurations
+between ruby scripts and the supervision system this way</p>
+
+<h2 id="generating-configuration-files-from-the-tasks">Generating configuration files from the tasks</h2>
+
+<p>The easiest way to start a new configuration file is to create one from the
+default values of a task:</p>
+
+<pre><code class="language-text">oroconf extract model_name
+</code></pre>
+
+<p>For instance, to get a fresh configuration file for a hokuyo::Task task, one
+does</p>
+
+<pre><code class="language-text">oroconf extract hokuyo::Task
+</code></pre>
+
+<p>You can also specify a file to save it into</p>
+
+<pre><code class="language-text">oroconf extract hokuyo::Task --save=hokuyo.yml
+</code></pre>
+
+<p>Or, if you use the directory configuration storage described above, give the directory directly</p>
+
+<pre><code class="language-text">oroconf extract hokuyo::Task --save=config/orogen/
+</code></pre>
+
+<h2 id="generating-configuration-files-from-property-logs">Generating configuration files from property logs</h2>
+<p>Since you are using <a href="../data_analysis/logging.html">Orocos.log_all</a> in your Ruby scripts, a
+properties.0.log file is being generated by the script, in which the changes to
+the task&rsquo;s configurations are saved. This data can be transformed into a
+proper configuration file using oroconf as well:</p>
+
+<pre><code class="language-text">oroconf logextract properties.0.log task_name timespec
+</code></pre>
+
+<p>where timespec can either be a number of seconds since epoch (as reported by
+pocolog properties.0.log -s stream_name --time) or the keyword @last. If @last
+is given, the last sample in each relevant configuration streams is taken.</p>
+
+
+             </div>
+         </div>
+     </div>
