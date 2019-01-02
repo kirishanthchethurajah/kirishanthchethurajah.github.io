@@ -4,150 +4,188 @@ title: footer
 rock_page_style: centered
 ---
 
-Impressum
+<div>
+<p>
+<b>This page gives contact information about the people maintaining the web site and the organization hosting it.</b><br/><br/>
+Rock is an Open Source project, it is maintained by many more people with different affiliations.
+</p>
 
-**This page gives contact information about the people maintaining the
-web site and the organization hosting it.**\
-\
- Rock is an Open Source project, it is maintained by many more people
-with different affiliations.
+<h2>Contact for content issues</h2>
+<a href="mailto:thomas.roehr@dfki.de">Thomas Roehr, thomas.roehr&#064;@dfki.de</a><br/>
+<a href="mailto:sylvain.joyeux@m4x.org">Sylvain Joyeux, sylvain.joyeux&#064;m4x.org</a>
 
-Contact for content issues
---------------------------
-
-[Thomas Roehr, thomas.roehr@@dfki.de](mailto:thomas.roehr@dfki.de)\
- [Sylvain Joyeux, sylvain.joyeux@m4x.org](mailto:sylvain.joyeux@m4x.org)
-
-Data Protection Notice
-----------------------
-
+<h2>Data Protection Notice</h2>
 The German Research Center for Artificial Intelligence (Deutsches
-Forschungszentrum für Künstliche Intelligenz -- DFKI) and its staff are
-committed to goal- and risk-oriented information privacy and the
-fundamental right to the protection of personal data. In this data
-protection policy we inform you about the processing of your personal
-data when visiting and using our web site.
+Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz -- DFKI) and its staff are
+committed to goal- and risk-oriented information privacy and the fundamental
+right to the protection of personal data. In this data protection policy we
+inform you about the processing of your personal data when visiting and using
+our web site.
 
-Controller
-----------
+<h2>Controller</h2>
+Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz (DFKI)
+Phone: +49 (0)631 / 205 75-0, E-Mail: <a href="mailto:info@dfki.de">info@dfki.de</a>, <a href="https://www.dfki.de/web/legal-info-en">Legal information</a>
 
-Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI) Phone: +49
-(0)631 / 205 75-0, E-Mail: [info@dfki.de](mailto:info@dfki.de), [Legal
-information](https://www.dfki.de/web/legal-info-en)
+<h2>Data protection officer</h2>
+Phone: +49 (0)631 / 205 75-0, E-Mail: <a href="mailto:datenschutz@dfki.de">datenschutz@dfki.de</a>
 
-Data protection officer
------------------------
 
-Phone: +49 (0)631 / 205 75-0, E-Mail:
-[datenschutz@dfki.de](mailto:datenschutz@dfki.de)
+<h2>Purpose of processing</h2>
+Provision of the information offering in the course of the public communication
+of the DFKI Establishment of contact and correspondence with visitors and users
 
-Purpose of processing
----------------------
 
-Provision of the information offering in the course of the public
-communication of the DFKI Establishment of contact and correspondence
-with visitors and users
+<h2>Website usage</h2>
+Visit and usage of our web site are anonymous. At our web site personal data are
+only collected to the technically necessary extent.
+Within our information offering we do embed
+information or service offerings of the social networking website Tumblr
+The interaction with the website will transmit data to Tumblr as part of
+their blog services.
 
-Website usage
--------------
+For more information about Tumblr's data processing, please refer to Tumblr's
+Privacy Policy <a href="https://www.tumblr.com/privacy">here</a>.
 
-Visit and usage of our web site are anonymous. At our web site personal
-data are only collected to the technically necessary extent. Within our
-information offering we do embed information or service offerings of the
-social networking website Tumblr The interaction with the website will
-transmit data to Tumblr as part of their blog services. For more
-information about Tumblr's data processing, please refer to Tumblr's
-Privacy Policy [here](https://www.tumblr.com/privacy).
+<h2>Newsletter usage</h2>
+This website embeds a redirection to DFKI's Mailman service.
+Any registration will subsequently be based on DFKI's data policies as found
+<a href="https://www.dfki.de/web/data-protection-en">here</a><br/>
 
-Newsletter usage
-----------------
+The newsletter service in particular requires to store your transmitted name and e-mail in combination with
+settings for your delivery preferences. 
+The processing of the data is lawful because it is necessary for the purpose of
+maintaining the newsletter service for you. You can at any time unsubscribe or
+request the removal from this service.<br/>
 
-This website embeds a redirection to DFKI's Mailman service. Any
-registration will subsequently be based on DFKI's data policies as found
-[here](https://www.dfki.de/web/data-protection-en)\
- The newsletter service in particular requires to store your transmitted
-name and e-mail in combination with settings for your delivery
-preferences. The processing of the data is lawful because it is
-necessary for the purpose of maintaining the newsletter service for you.
-You can at any time unsubscribe or request the removal from this
-service.\
- For registration and deregistration please visit:\
+For registration and deregistration please visit:<br/>
+<ul>
+<li>rock-dev: <a
+href="http://www.dfki.de/mailman/cgi-bin/listinfo/rock-dev">http://www.dfki.de/mailman/cgi-bin/listinfo/rock-dev</a></li>
+<li>rock-users: <a href="http://www.dfki.de/mailman/cgi-bin/listinfo/rock-users">http://www.dfki.de/mailman/cgi-bin/listinfo/rock-users</a></li>
+</ul>
 
--   rock-dev:
-    [http://www.dfki.de/mailman/cgi-bin/listinfo/rock-dev](http://www.dfki.de/mailman/cgi-bin/listinfo/rock-dev)
--   rock-users:
-    [http://www.dfki.de/mailman/cgi-bin/listinfo/rock-users](http://www.dfki.de/mailman/cgi-bin/listinfo/rock-users)
-
-Contractor (Hosting/WebSpace Server)
-------------------------------------
-
+<h2>Contractor (Hosting/WebSpace Server) </h2>
 This website is hosted with the following contractor.
+<p>
+<b>Goserver GmbH</b><br/>
+Marssstr. 72<br/>
+80335 Munich/Germany<br/><br/>
 
-**Goserver GmbH**\
- Marssstr. 72\
- 80335 Munich/Germany\
-\
- Phone: +49 89 540 42 50 0\
- Email: [info@goserver.de](mailto:info@goserver.de)\
- [Goserver GmbH](http://www.goserver.de)\
+Phone: +49 89 540 42 50 0<br/>
+Email: <a href="mailto:info@goserver.de">info&#064;goserver.de</a><br/>
+<a href="http://www.goserver.de">Goserver GmbH</a><br/>
+</p>
 
-Access data
------------
+<h2>Access data</h2>
+On every access to our web site some usage, transmission and connection data
+will be collected by our Hosting Contractor Goserver.
+For more information about Goserver's data processing, please refer to
+Goserver's Privacy Policy <a href="https://www.goserver.de/privacy-webtracking">here</a>.
 
-On every access to our web site some usage, transmission and connection
-data will be collected by our Hosting Contractor Goserver. For more
-information about Goserver's data processing, please refer to Goserver's
-Privacy Policy [here](https://www.goserver.de/privacy-webtracking).
+<!--temporarily stored in a log file and regularly deleted after
+90 days.
+On every access/retrieval the following data are stored:
+<ul>
+<li>IP address</li>
+<li>transmitted user agent information (in particular type/version of web browser, operating system etc.)</li>
+<li>transmitted referrer information (URL of the referring page)</li>
+<li>date and time of the access/retrieval</li>
+<li>transmitted access method/function</li>
+<li>transmitted input values (search terms etc.)</li>
+<li>retrieved page resp. file</li>
+<li>transmitted amount of data</li>
+<li>status of processing the access/retrieval</li>
+</ul>
+The processing of the access data is lawful because it is necessary for the
+purposes of the legitimate interests pursued by DFKI. The legitimate interests
+pursued by DFKI are the adaptation and optimisation of the information offering
+and the investigation, detection and prosecution of illegal activities in
+connection with the usage of our web site.
 
-Correspondence
---------------
+The stored data records can be statistically evaluated in order to adapt and
+optimize our web site to the needs of our visitors. Any techniques that offer
+the possibility to retrace the access characteristics of users (tracking) will
+not be applied. The creation of user profiles and automated decision-making
+based on it is precluded.
 
-You have the option to contact us by e-mail. We will use your e-mail
-address and other personal contact data for the correspondence with you.
-Due to lawful obligation every e-mail correspondence will be archived.
-Subject to our legitimate interests your e-mail address and other
-personal contact data can be stored in our contact data base. In this
-case you will receive a corresponding information on the processing of
-your contact data.
+The stored data records are not attributable to specific persons. They are
+generally not being combined with other data sources. However, the stored data
+can be analysed and combined with other data sources, if we become aware of
+concrete indications of any illegal usage.
 
-Access and Intervention
------------------------
+<h2>Cookies</h2>
+We use so-called cookies on our web site. Cookies are small files that are being
+stored by your web browser. The cookies used on our web site do not harm your
+computer and do not contain any malicious software. They offer a user-friendly
+and effective usage of our web site. We do not use cookies for marketing
+purposes.
 
-Besides the information in this data protection policy you have the
-right of access to your personal data. To ensure fair data processing,
-you have the following rights: The right to rectification and completion
-of your personal data The right to erasure of your personal data The
-right to restriction of the processing of your personal data The right
-to object to the processing of your personal data on grounds related to
-your particular situation To exercise these rights, please contact our
-data protection officer.
+We transmit so-called session cookies to your web browser. They are valid only
+for the duration of your visit on our web site and they do not have any meaning
+outside of our web site. The session cookies are needed in order to identify
+your session with a unique number during your visit and to transmit our
+contents in your preferred language. At the end of your visit the session
+cookies will be automatically deleted upon termination of your web browser.
 
-Right to lodge a complaint
---------------------------
+We also transmit permanent cookies to your web browser with a validity period of
+at most 365 days. We are exclusively using these cookies in order to respect
+your settings for the type of presentation (normal, inverted) and for the font
+size. Furthermore, it will be recorded whether you've taken notice of the
+information about the usage of cookies in your web browser.
 
-You have the right to lodge a complaint with a supervisory authority if
-you consider that the processing of your personal data infringes
-statutory data protection regulations.
+You can adjust your web browser such that you will be informed on setting
+cookies and allow cookies on an individual basis resp. exclude the acceptance of
+cookies for specific cases or generally. You also can adjust the automatic
+deletion of cookies upon termination of your web browser. Upon deactivation of
+cookies the functionality of our web site can be limited. In any case, our
+information offering is available to its full extent.
+-->
 
-Deutsches Forschungszentrum für Künstliche Intelligenz GmbH
------------------------------------------------------------
+<h2>Correspondence</h2>
+You have the option to contact us by e-mail. We will use your e-mail address and
+other personal contact data for the correspondence with you. Due to lawful
+obligation every e-mail correspondence will be archived. Subject to our
+legitimate interests your e-mail address and other personal contact data can be
+stored in our contact data base. In this case you will receive a corresponding
+information on the processing of your contact data.
 
-**Standort Bremen\
-Robotics Innovation Center\
-** Robert-Hooke-Str. 1\
- 28359 Bremen\
- Telefon: +49 (0)421 / 178 45 - 0\
- Telefax: +49 (0)421 / 178 45 - 4150\
- E-Mail: [robotik@dfki.de](mailto:robotik@dfki.de)\
- Leitung: Prof. Dr. Frank Kirchner
 
-**Geschäftsführung:**\
- Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),\
- Dr. Walter Olthoff\
-\
- Vorsitzender des Aufsichtsrates:\
- Prof. Dr. h.c. Hans A. Aukes\
-\
- Amtsgericht Kaiserslautern\
- HRB 2313\
- ID-Nummer DE 148 646 973
+<h2>Access and Intervention</h2>
+
+Besides the information in this data protection policy you have the right of
+access to your personal data. To ensure fair data processing, you have the
+following rights:
+
+The right to rectification and completion of your personal data
+The right to erasure of your personal data
+The right to restriction of the processing of your personal data
+The right to object to the processing of your personal data on grounds related to your particular situation
+To exercise these rights, please contact our data protection officer.
+
+<h2>Right to lodge a complaint</h2>
+You have the right to lodge a complaint with a supervisory authority if you
+consider that the processing of your personal data infringes statutory data
+protection regulations.
+
+<h2>Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz GmbH</h2>
+    <p>
+	<b>Standort Bremen<br />Robotics Innovation Center<br /></b>
+	Robert-Hooke-Str. 1<br />
+	28359 Bremen<br />
+	Telefon: +49 (0)421 / 178 45 - 0<br />
+	Telefax: +49 (0)421 / 178 45 - 4150<br />
+	E-Mail: <a href="mailto:robotik@dfki.de">robotik&#064;dfki.de</a><br />
+	Leitung: Prof. Dr. Frank Kirchner
+    </p>
+
+    <p>
+    <b>Gesch&auml;ftsf&uuml;hrung:</b><br />
+    Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),<br />
+    Dr. Walter Olthoff<br /><br />
+    Vorsitzender des Aufsichtsrates:<br />
+    Prof. Dr. h.c. Hans A. Aukes<br /><br />
+    Amtsgericht Kaiserslautern<br />
+    HRB 2313<br />
+    ID-Nummer DE 148 646 973
+    </p>
+</div>
