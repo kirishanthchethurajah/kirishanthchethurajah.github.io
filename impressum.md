@@ -1,6 +1,7 @@
 --- 
 layout: default 
 title: footer 
+rock_page_style: centered
 ---
 
 Impressum
