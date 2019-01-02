@@ -1,4 +1,8 @@
---- layout: page title: Adding packages section: Build System ---
+--- 
+layout: page 
+title: Adding packages 
+section: Build System
+---
 
 Adding packages
 
