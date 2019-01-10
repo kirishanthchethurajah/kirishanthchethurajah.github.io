@@ -1,4 +1,7 @@
---- layout: default title: Home Page ---
+---
+layout: default
+title: Home Page
+---
 
 What is Rock ?
 ==============
