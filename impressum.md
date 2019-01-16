@@ -4,7 +4,7 @@ title: footer
 rock_page_style: centered
 ---
 
-<div align="center">
+<div style="margin-left:45px>
 <p>
 <b>This page gives contact information about the people maintaining the web site and the organization hosting it.</b><br/><br/>
 Rock is an Open Source project, it is maintained by many more people with different affiliations.
