@@ -3,6 +3,7 @@ layout: default
 title: footer 
 ---
 <div style="margin-left:135px;margin-right:135px;">
+<div class="content2">	
 <div class="content2-pagetitle"><h1>Impressum</h1></div>
 <div class="content2-container line-box"></div>
 
