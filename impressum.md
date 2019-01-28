@@ -11,7 +11,7 @@ title: footer
 </div>
 
 </div>
-
+</div>
 <div style="margin-left:135px;margin-right:135px;">
 
 <p>
