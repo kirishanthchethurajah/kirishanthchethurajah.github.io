@@ -47,7 +47,7 @@ and report bugs <a href="http://rock.opendfki.de">on the Rock trac</a></p>
     href="http://feedburner.google.com/fb/a/mailverify?uri=rock-robotics/MMgF&amp;loc=en_US">subscribe</a></em></div>-->
 </h1>
 
-<script type="text/javascript" src="http://rock-robotics.tumblr.com/js"></script>
+<script type="text/javascript" src="http://rock-robotics.tumblr.com/js"></script\>
 
 
 </div>
