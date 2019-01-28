@@ -1,4 +1,8 @@
---- layout: package hero\_text: about Page! title: Package Directory ---
+--- 
+layout: package 
+hero_text: about Page! 
+title: Package Directory 
+---
 
 Package Directory
 
