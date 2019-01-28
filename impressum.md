@@ -1,10 +1,12 @@
---- 
-layout: default 
-title: footer 
+---
+layout: default
+title: footer
 ---
 
-<div class="content2">	
+<div class="content2">
 <div class="content2-pagetitle">Impressum</div>
+<div class="content2-container line-box">
+<div class="content2-container-1col">
 <p>
 <b>This page gives contact information about the people maintaining the web site and the organization hosting it.</b><br/><br/>
 Rock is an Open Source project, it is maintained by many more people with different affiliations.
@@ -52,7 +54,7 @@ Any registration will subsequently be based on DFKI's data policies as found
 <a href="https://www.dfki.de/web/data-protection-en">here</a><br/>
 
 The newsletter service in particular requires to store your transmitted name and e-mail in combination with
-settings for your delivery preferences. 
+settings for your delivery preferences.
 The processing of the data is lawful because it is necessary for the purpose of
 maintaining the newsletter service for you. You can at any time unsubscribe or
 request the removal from this service.<br/>
@@ -189,5 +191,5 @@ protection regulations.
     ID-Nummer DE 148 646 973
     </p>
 </div>
-
-
+</div>
+</div>
