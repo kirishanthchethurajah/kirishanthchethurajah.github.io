@@ -12,7 +12,7 @@ rock_page_style: centered
 
 
 <div style="margin-left:135px;margin-right:135px;">
-
+# Impressum
 <p>
 <b>This page gives contact information about the people maintaining the web site and the organization hosting it.</b><br/><br/>
 Rock is an Open Source project, it is maintained by many more people with different affiliations.
