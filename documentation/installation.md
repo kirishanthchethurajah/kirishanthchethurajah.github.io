@@ -190,7 +190,6 @@ autoproj build</p>
 <p>You might have to reload the env.sh script after that as well, to export updated environment variables into your current shell. Simply opening a new console will do the trick (given you have added sourcing env.sh to your .bashrc).</p>
 
 
-
-              </div>
-          </div>
-      </div>
+</div>
+</div>
+</div>
