@@ -4,7 +4,7 @@ title: footer
 ---
 
 <div class="content2">	
-<div class="content2-pagetitle"><h1>Impressum</h1></div>
+<div class="content2-pagetitle">Impressum</div>
 <p>
 <b>This page gives contact information about the people maintaining the web site and the organization hosting it.</b><br/><br/>
 Rock is an Open Source project, it is maintained by many more people with different affiliations.
