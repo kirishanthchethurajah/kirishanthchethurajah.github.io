@@ -177,19 +177,16 @@ protection regulations.
 	Telefon: +49 (0)421 / 178 45 - 0<br />
 	Telefax: +49 (0)421 / 178 45 - 4150<br />
 	E-Mail: <a href="mailto:robotik@dfki.de">robotik&#064;dfki.de</a><br />
-	Leitung: Prof. Dr. Frank Kirchner
+	Leitung: Prof. Dr. Frank Kirchner <br />
+        <b>Gesch&auml;ftsf&uuml;hrung:</b><br />
+    	Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),<br />
+    	Dr. Walter Olthoff<br /><br />
+    	Vorsitzender des Aufsichtsrates:<br />
+    	Prof. Dr. h.c. Hans A. Aukes<br /><br />
+    	Amtsgericht Kaiserslautern<br />
+    	HRB 2313<br />
+    	ID-Nummer DE 148 646 973
     </p>
-
-    
-    <b>Gesch&auml;ftsf&uuml;hrung:</b><br />
-    Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),<br />
-    Dr. Walter Olthoff<br /><br />
-    Vorsitzender des Aufsichtsrates:<br />
-    Prof. Dr. h.c. Hans A. Aukes<br /><br />
-    Amtsgericht Kaiserslautern<br />
-    HRB 2313<br />
-    ID-Nummer DE 148 646 973
-    <br />
 </div>
 </div>
 </div>
