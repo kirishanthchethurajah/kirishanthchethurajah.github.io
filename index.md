@@ -33,12 +33,12 @@ you can have a look at the <a href="package_directory.html">existing packages</a
   <div class="content2-container-3col-right">
     <p class="content-title-noshade-size3">Community</p>
 
-    <p>Don&rsquo;t hesitate ! Ask questions on the
+    <br />Don&rsquo;t hesitate ! Ask questions on the
 <a href="http://lists.mech.kuleuven.be/mailman/listinfo/orocos-users" class="highlight">orocos-users</a>
 mailing list. If you are interested in the cutting-edge development of Rock, you
 can also join the
 <a href="http://www.dfki.de/mailman/cgi-bin/listinfo/rock-dev" class="highlight">rock-dev</a> mailing list,
-and report bugs <a href="http://rock.opendfki.de">on the Rock trac</a></p>
+and report bugs <a href="http://rock.opendfki.de">on the Rock trac</a><br />
   </div>
 </div>
 
