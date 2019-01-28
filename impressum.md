@@ -1,10 +1,9 @@
 --- 
 layout: default 
 title: footer 
-rock_page_style: centered
 ---
 <div class="content2">
- <div class="content2-pagetitle">Impressum</div>
+	<div class="content2-pagetitle"><h1>Impressum</h1></div>
 <div class="content2-container line-box">
 <div class="content2-container-1col">
 
