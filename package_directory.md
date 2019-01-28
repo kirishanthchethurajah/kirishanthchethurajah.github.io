@@ -51,7 +51,6 @@ for an osdeps name (which is a simple name referring to a software), which
 packages would be installed on which operating system.</p>
 
 
-
-              </div>
-          </div>
-      </div>
+</div>
+</div>
+</div>
