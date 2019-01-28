@@ -1,3 +1,8 @@
+---
+layout: package
+hero_text: about Page!
+title: Package Directory
+---
   <div class="content2">
 
           <div class="content2-pagetitle">Package Directory</div>
