@@ -3,34 +3,12 @@ layout: package
 hero_text: about Page!
 title: Package Directory
 ---
-  <div class="content2">
+<div class="content2">
 
-          <div class="content2-pagetitle">Package Directory</div>
+<div class="content2-pagetitle">Package Directory</div>
 
-          <div class="content2-container line-box">
-              <div class="content2-container-1col">
-
-
-                  <script type="text/javascript">
-$(document).ready(function () {
-    $("div.help").hide();
-    $("span.help_trigger").click(function (event) {
-            id = $(this).attr("id");
-            $("div#help_" + id).toggle();
-            event.preventDefault();
-    });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function () {
-    $("div.vcs_info").hide();
-    $("div.vcs span.toggle").click(function (event) {
-            $(this).parent().children("div.vcs_info").toggle();
-            event.preventDefault();
-    });
-});
-</script>
+<div class="content2-container line-box">
+<div class="content2-container-1col">
 
 
 <p>The Package Directory allows you to browse the software that is available </p>
