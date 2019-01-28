@@ -4,14 +4,8 @@ title: footer
 ---
 <div class="content2">
 	<div class="content2-pagetitle"><h1>Impressum</h1></div>
-<div class="content2-container line-box">
-
-
-
+<div class="content2-container line-box"></div>
 </div>
-
-</div>
-
 <div style="margin-left:135px;margin-right:135px;">
 
 <p>
