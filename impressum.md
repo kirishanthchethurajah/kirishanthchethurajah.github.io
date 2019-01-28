@@ -177,7 +177,7 @@ protection regulations.
 	Telefon: +49 (0)421 / 178 45 - 0<br />
 	Telefax: +49 (0)421 / 178 45 - 4150<br />
 	E-Mail: <a href="mailto:robotik@dfki.de">robotik&#064;dfki.de</a><br />
-	Leitung: Prof. Dr. Frank Kirchner <br />
+	Leitung: Prof. Dr. Frank Kirchner <br /><br />
         <b>Gesch&auml;ftsf&uuml;hrung:</b><br />
     	Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),<br />
     	Dr. Walter Olthoff<br /><br />
