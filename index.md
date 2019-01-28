@@ -50,8 +50,6 @@ and report bugs <a href="http://rock.opendfki.de">on the Rock trac</a></p>
 <script type="text/javascript" src="http://rock-robotics.tumblr.com/js"></script>
 
 
-
-
-              </div>
-          </div>
-      </div>
+</div>
+</div>
+</div>
