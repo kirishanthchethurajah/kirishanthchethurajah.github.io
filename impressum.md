@@ -180,7 +180,7 @@ protection regulations.
 	Leitung: Prof. Dr. Frank Kirchner
     </p>
 
-    <p>
+    
     <b>Gesch&auml;ftsf&uuml;hrung:</b><br />
     Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender),<br />
     Dr. Walter Olthoff<br /><br />
@@ -189,7 +189,7 @@ protection regulations.
     Amtsgericht Kaiserslautern<br />
     HRB 2313<br />
     ID-Nummer DE 148 646 973
-    </p>
+    <br />
 </div>
 </div>
 </div>
