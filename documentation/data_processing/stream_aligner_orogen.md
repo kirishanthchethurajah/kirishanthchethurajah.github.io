@@ -9,7 +9,7 @@ section: Data Processing
 <div class="content2-container-1col">
 
 
-                <p>To make life easier while using the stream aligner, an oroGen plug-in was
+<p>To make life easier while using the stream aligner, an oroGen plug-in was
 created. Using this plugin, the laser filter that we outlined in the previous
 pages would be declared with:</p>
 
