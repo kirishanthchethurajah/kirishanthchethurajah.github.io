@@ -11,7 +11,7 @@ secondsection: Tutorials
 <div class="content2-container-1col">
 
 
-                  <p>Up to now, you have been writing down detailed instructions on how to bind
+<p>Up to now, you have been writing down detailed instructions on how to bind
 components together using a Ruby script.
 After this tutorial, you will be able to use the modeling capabilities of Rock&rsquo;s system management layer
 which allows you to <em>describe</em> the system you want to run and let the system management layer do the rest of the work,
