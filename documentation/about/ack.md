@@ -7,10 +7,10 @@ section: About Rock
 
 <div class="content2">
 
-    <div class="content2-pagetitle">Acknowledging Rock</div>
+<div class="content2-pagetitle">Acknowledging Rock</div>
 
-    <div class="content2-container line-box">
-        <div class="content2-container-1col">
+<div class="content2-container line-box">
+<div class="content2-container-1col">
 
 
 
@@ -27,6 +27,6 @@ Rock: The Robot Construction Kit (http://rock-robotics.org)
 
 
 
-        </div>
-    </div>
+</div>
+</div>
 </div>
