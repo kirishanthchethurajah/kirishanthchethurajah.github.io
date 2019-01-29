@@ -12,7 +12,7 @@ section: Basics
 <div class="content2-container-1col">
 
 
-                  <h2 id="tutorial-info">Tutorial Info</h2>
+<h2 id="tutorial-info">Tutorial Info</h2>
 
 <p>This tutorial will give you some hands-on experience on:</p>
 
