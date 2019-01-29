@@ -19,13 +19,13 @@ own system, and can easily be extended by adding new components.
   <div class="content2-container-3col-left">
     <p class="content-title-noshade-size3">Get it</p>
 
-    <p>Get started with the <a href="documentation/installation.html" class="highlight">step-by-step installation guide</a>.</p>
+<p>Get started with the <a href="documentation/installation.html" class="highlight">step-by-step installation guide</a>.</p>
   </div>
 
   <div class="content2-container-3col-middle">
     <p class="content-title-noshade-size3">Use it</p>
 
-    <p>First and foremost, <a href="documentation/tutorials/" class="highlight">follow the tutorials
+<p>First and foremost, <a href="documentation/tutorials/" class="highlight">follow the tutorials
 !</a> After that,
 you can have a look at the <a href="package_directory.html">existing packages</a> and at the <a href="documentation/">reference documentation</a></p>
   </div>
@@ -33,7 +33,7 @@ you can have a look at the <a href="package_directory.html">existing packages</a
   <div class="content2-container-3col-right">
     <p class="content-title-noshade-size3">Community</p>
 
-    <br />Don&rsquo;t hesitate ! Ask questions on the
+<br />Don&rsquo;t hesitate ! Ask questions on the
 <a href="http://lists.mech.kuleuven.be/mailman/listinfo/orocos-users" class="highlight">orocos-users</a>
 mailing list. If you are interested in the cutting-edge development of Rock, you
 can also join the
