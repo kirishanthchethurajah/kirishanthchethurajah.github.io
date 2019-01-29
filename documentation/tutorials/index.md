@@ -5,11 +5,9 @@ section: Basics
 ---
 
 <div class="content2">
-
-          <div class="content2-pagetitle">Introduction</div>
-
-          <div class="content2-container line-box">
-              <div class="content2-container-1col">
+<div class="content2-pagetitle">Introduction</div>
+<div class="content2-container line-box">
+<div class="content2-container-1col">
 
 
 
@@ -92,6 +90,6 @@ layout:
 
 
 
-              </div>
-          </div>
-      </div>
+</div>
+</div>
+</div>
