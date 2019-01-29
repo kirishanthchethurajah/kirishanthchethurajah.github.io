@@ -9,7 +9,7 @@ section: Data Processing
 <div class="content2-container-1col">
 
 
-                <p>The first step, when using the transformer, is <strong>describing</strong> which
+<p>The first step, when using the transformer, is <strong>describing</strong> which
 transformations are needed your component&rsquo;s processing. For instance, in the
 case of the laser filter, one would need the transformation between its input
 and the body that it has to filter out. One would therefore declare that the
